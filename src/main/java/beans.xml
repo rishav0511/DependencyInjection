@@ -6,12 +6,12 @@
 
     <!-- bean definitions here -->
     <bean id="student" class="com.rishav.dependencyinjection.Student">
-        <property name="studentName" value="Rishav Raj"/>
-        <property name="id" value="10070"/>
+        <constructor-arg name="studentName" value="Rishav Raj"/>
+        <constructor-arg  name="id" value="10070"/>
     </bean>
 
     <bean id="akash" class="com.rishav.dependencyinjection.Student">
-        <property name="studentName" value="Akash Kumar"/>
-        <property name="id" value="10069"/>
+        <constructor-arg  name="id" value="10069"/>
     </bean>
+
 </beans>
